@@ -1,0 +1,149 @@
+* {
+background-color: #fafafa;
+}
+
+.nav-top {
+    height: 63px;  
+    border-top:0.5px solid #dbdbdb; 
+    border-bottom:1px solid #dbdbdb;
+}
+
+.nav-container {
+    padding-left: 25%; 
+    padding-right: 25%;
+}
+
+.form-control {
+    border-radius: .15rem !important;
+    padding: 0% !important; 
+    background-color: #fafafa !important; 
+    text-align: center; 
+    font-size: 15px !important;
+}
+
+@media screen and (max-width: 1605px) {
+    .nav-container {
+        padding-left: 20%; 
+        padding-right: 20%;
+    }
+  }
+@media screen and (max-width: 990px) {
+    .nav-container {
+        padding-left: 5%; 
+        padding-right: 5%;
+    }
+}
+
+.imgperfilnav {
+    border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%; 
+    max-width:30px; 
+    max-height:25px;
+}
+
+.icons {
+    width: 30%;
+    padding: 3%; 
+    font-size: 25px;
+}
+
+.imgperfil {
+    border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%; 
+    max-width:200px; 
+    max-height:150px;
+}
+
+.grid-perfil{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.row{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+.username {
+    font-weight: 300; font-size: 28px;
+}
+
+.button-edit {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    border-color: #dae1e7;
+}
+
+.btn {
+    padding: .100rem .50rem;
+}
+
+.name {
+    font-size: 16px; display: inline; font-weight: 600;
+}
+
+.profile-datas {
+    font-size: 15px;
+}
+
+.profile-desc {
+    font-size: 15px; 
+}
+
+.linha {
+    size:3;
+    width:100%;
+    color:#000000;
+    margin: 0,5%;
+}
+
+.nav-feed {
+    border-bottom: none !important; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.nav-link-1 {
+    color: #495057;
+    background-color: #fafafa !important;
+    border-color: gray #fff #fff !important;
+    border-top-right-radius: .0rem !important;
+    border-top-left-radius: .0rem !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nav-link-2 {
+    color: #a2a8af;
+    background-color: #fafafa !important;
+    border-color: #fff #fff #fff !important;
+    border-top-right-radius: .0rem !important;
+    border-top-left-radius: .0rem !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.card {
+    border: 0px solid rgba(0,0,0,.125) !important;
+    border-radius: .0rem !important;
+}
+
+.card .card-img, .card-img-top {
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
+}
+
+.stories{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}

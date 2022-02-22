@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="cloneinstagram.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Rafaella Marques (@marquesrafaella)</title>
+  </head>
+
+
+  <body>
+    <header>
+        <nav class="navbar navbar-light nav-top">
+
+            <div class="container-fluid nav-container">
+                <a class="navbar-brand" href="https://www.instagram.com/marquesrafaellaa/" target="_blank">
+                <img src="img/logoinsta.png" style=" max-width:130px; max-height:80px"></a>
+                
+                
+                <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                </form>
+
+                <div class="icons">
+                    <i class="bi bi-house-door-fill icons"></i>
+                    <i class="bi bi-chat-fill icons"></i>
+                    <i class="bi bi-file-plus-fill icons"></i>
+                    <i class="bi bi-heart-fill icons"></i>
+                    <img class="imgperfilnav" src="img/fotoperfil.jpeg">
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+    
+   <main>
+       <section>
+        <hr class="linha">
+         
+         <!-- Profile-->
+        <div class="container">
+          <div class="grid-perfil">
+            <div class="col-0 col-md-2"></div>
+            <div class="col-12 col-md-8"></div>
+
+        <div class="container">
+          <div class="row">
+          <div class="col-3">
+          <img class="imgperfil" src="img/fotoperfil.jpeg">
+          </div>
+
+        <div class="col-7">
+          <div class="row">
+          <div class="col-8 col-lg-5">
+          <h2 class="username">marquesrafaellaa</h2>
+          </div>
+
+        <div class="col-4 col-lg-6">
+          <button type="button" class="btn btn-outline-secondary button-edit">Editar perfil</button>
+          </div>
+          </div>
+
+        <div class="row">
+          <div class="col-4">
+          <p class="profile-datas"><strong>50</strong> publicações</p>
+          </div>
+            
+        <div class="col-4">
+          <p class="profile-datas"><strong>600</strong> seguidores</p>
+          </div>
+
+        <div class="col-4">
+          <p class="profile-datas"><strong>1000</strong> seguindo</p>
+          </div>
+          </div>
+
+        <div class="row">
+          <div class="col-12">
+          <h1 class="name">Rafaella Marques</h1>
+          </div>
+          </div>
+
+        <div class="row">
+          <div class="col-12">
+          <p class="profile-desc">@marquesrafaellaa</p>
+          </div>
+          </div>
+        </div>
+        
+        <div class="col-2"></div>
+        </div>
+        </div>
+
+        <!-- Destaques-->
+        <div class="row destaques">
+          <div class="col-2"> <canvas id="myCrl"></canvas></div>
+          <div class="col-2"> <canvas id="myCrl1"></canvas></div>
+          <div class="col-2"> <canvas id="myCrl2"></canvas></div>
+          </div>
+
+        <div class="row destaques">
+          <div class="col-2 stories">🚴🏻‍♀️</div>
+          <div class="col-2 stories"> 👨🏼‍💻</div>
+          <div class="col-2 stories">🤳🏽</div>
+          </div>
+          </div>
+
+          <hr class="linha">
+
+          <!--Feed-->
+        <ul class="nav nav-tabs nav-feed" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active nav-link-1" id="home-tab" data-bs-toggle="tab" href="#home" role="tab"
+            aria-controls="home" aria-selected="true"><i class="bi bi-grid-3x3"></i> PUBLICAÇÕES</a>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <a class="nav-link nav-link-2" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab"
+             aria-controls="profile" aria-selected="false"><i class="bi bi-file-person"></i> MARCADOS</a>
+           </li>
+        </ul>
+
+        <!--Feed Fotos-->
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <div class="row" style="padding-bottom: 25px;">
+                  <div class="col-4">
+                      <div class="card">
+                          <img src="img/post1.jpeg" class="card-img-top" alt="...">
+                      </div>
+                  </div>
+
+                  <div class="col-4">
+                      <div class="card">
+                          <img src="img/post2.jpg" class="card-img-top" alt="...">
+                      </div>
+                  </div>
+
+                  <div class="col-4">
+                      <div class="card">
+                          <img src="img/post3.jpeg" class="card-img-top" alt="...">
+                      </div>
+                  </div>
+              </div>
+
+              <div class="row" style="padding-bottom: 25px;">
+                  <div class="col-4">
+                      <div class="card">
+                          <img src="img/post4.jpg" class="card-img-top" alt="...">
+                      </div>
+                  </div>
+
+                  <div class="col-4">
+                      <div class="card">
+                          <img src="img/post5.jpeg" class="card-img-top" alt="...">
+                      </div>
+                  </div>
+
+                  <div class="col-4">
+                      <div class="card">
+                          <img src="img/post6.jpeg" class="card-img-top" alt="...">
+                      </div>
+                  </div>
+              </div>
+
+              <div class="row" style="padding-bottom: 25px;">
+                  <div class="col-4">
+                      <div class="card">
+                          <img src="images/post7.png" class="card-img-top" alt="...">
+                      </div>
+                  </div>
+
+                  <div class="col-4">
+                      <div class="card">
+                      </div>
+                  </div>
+
+
+                  <div class="col-4">
+                      <div class="card">
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"></div>
+      </div>
+  </div>
+  
+  <div class="col-0 col-md-2"></div>
+</div>
+</div>
+
+       </section>
+   </main>
+   
+   
+    <script src="cloneinstagram.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
