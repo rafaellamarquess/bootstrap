@@ -147,3 +147,39 @@ background-color: #fafafa;
     font-size: 15px;
     font-weight: 600;
 }
+
+footer {
+    padding:40px 0;
+    color:#4b4c4d;
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .social-icons a {
+    font-size:16px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    height:44px;
+    text-align:center;
+    margin-right:8px;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear;
+    line-height:34px;
+    height:34px;
+    width:34px;
+  }
+  
+.copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size: 15px;
+    font-family: Raleway;
+    color:rgb(52, 55, 58);
+  }
